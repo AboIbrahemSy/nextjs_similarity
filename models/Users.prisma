@@ -1,0 +1,14 @@
+enum permission {
+    user
+    admin
+    manager
+  }
+  
+  model User {
+    id        Int      @id @default(autoincrement())
+    email     String   @unique
+    password  String
+    firstName String?
+    lastName  String?
+    permission permission @default(user)
+  }
