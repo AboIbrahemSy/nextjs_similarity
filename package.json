@@ -1,5 +1,5 @@
 {
-  "name": "my-app",
+  "name": "nextjs_similarity",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -30,7 +30,6 @@
     "@upstash/ratelimit": "^0.4.3",
     "@upstash/redis": "^1.21.0",
     "autoprefixer": "10.4.14",
-    "bcrypt": "^5.1.0",
     "class-variance-authority": "^0.6.0",
     "clsx": "^1.2.1",
     "date-fns": "^2.30.0",
